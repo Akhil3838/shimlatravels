@@ -1,95 +1,206 @@
 import Image from "next/image";
 import styles from "./page.module.css";
+import Footer from "./components/Footer";
+import Header from "./components/Header";
 
 export default function Home() {
   return (
-    <div className={styles.page}>
-      <main className={styles.main}>
-        <Image
-          className={styles.logo}
-          src="/next.svg"
-          alt="Next.js logo"
-          width={180}
-          height={38}
-          priority
-        />
-        <ol>
-          <li>
-            Get started by editing <code>src/app/page.js</code>.
-          </li>
-          <li>Save and see your changes instantly.</li>
-        </ol>
+    <>
+    <Header/>
 
-        <div className={styles.ctas}>
-          <a
-            className={styles.primary}
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <Image
-              className={styles.logo}
-              src="/vercel.svg"
-              alt="Vercel logomark"
-              width={20}
-              height={20}
-            />
-            Deploy now
-          </a>
-          <a
-            href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-            className={styles.secondary}
-          >
-            Read our docs
-          </a>
+
+{/* hero */}
+
+<section className="hero-sectio hero-3">
+    <div className="bg-shape" ></div>
+    <div className="container">
+        <div className="row hero-wrap-3">
+            <div className="col-lg-12">
+                <div className="hero-content hero-content-3">
+                    <h4 className="sub-title">Get unforgetable pleasure with us</h4>
+                    <h1 className="title">
+                        Explore beauty of <br /> the whole world
+                    </h1>
+                    <p>
+                        Denouncing pleasure and praising pain was born and will give you complete <br />
+                        great explorer of the truth the master-builder.
+                    </p>
+                    {/* <div className="hero-btn-wrap">
+                        <div className="hero-btn">
+                            <a className="ts-primary-btn" href="about.html">
+                                Read More <i className="fa-regular fa-chevron-right"></i>
+                            </a>
+                        </div>
+                        <div className="hero-rating">
+                            <div className="icon">
+                                <img src="assets/img/icon/hero-google.png" alt="icon" />
+                            </div>
+                            <div className="content">
+                                <ul className="review-list">
+                                    <li><i className="fa-solid fa-star"></i></li>
+                                    <li><i className="fa-solid fa-star"></i></li>
+                                    <li><i className="fa-solid fa-star"></i></li>
+                                    <li><i className="fa-solid fa-star"></i></li>
+                                    <li><i className="fa-solid fa-star"></i></li>
+                                </ul>
+                                <span>4.9 Rating</span>
+                            </div>
+                        </div>
+                    </div> */}
+                </div>
+            </div>
+            <div className="hero-img-3">
+                {/* <img src="assets/img/images/hero-img-2.png" alt="hero" /> */}
+            </div>
         </div>
-      </main>
-      <footer className={styles.footer}>
-        <a
-          href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="/file.svg"
-            alt="File icon"
-            width={16}
-            height={16}
-          />
-          Learn
-        </a>
-        <a
-          href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="/window.svg"
-            alt="Window icon"
-            width={16}
-            height={16}
-          />
-          Examples
-        </a>
-        <a
-          href="https://nextjs.org?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="/globe.svg"
-            alt="Globe icon"
-            width={16}
-            height={16}
-          />
-          Go to nextjs.org →
-        </a>
-      </footer>
     </div>
+</section>
+
+{/* hero end */}
+
+
+<section className="destination-section pt-5 pb-120">
+    <div className="container">
+        <div className="section-heading text-center">
+            <h4
+                className="sub-heading"
+                data-text-animation="fade-in"
+                data-duration="1.5"
+            >
+                Popular Destinations
+            </h4>
+            <h2
+                className="section-title"
+                data-text-animation="fade-in-right"
+                data-split="char"
+                data-duration="0.6"
+                data-stagger="0.03"
+            >
+                Explore The World With Us
+            </h2>
+        </div>
+        <div className="row gy-4 fade-wrapper">
+            <div className="col-lg-12 col-md-12 fade-top">
+                <div className="destination-item">
+                    <div className="overlay"></div>
+                    <div className="destination-thumb">
+                        <img src="assets/img/destination/desti-img-1.png" alt="desti" />
+                    </div>
+                    <div className="destination-content">
+                        <h3 className="title">
+                            <a href="destination-details.html">Bir billing</a>
+                        </h3>
+                        <span>Krabal, 12 Trips</span>
+                    </div>
+                </div>
+            </div>
+            <div className="col-lg-12 col-md-12 fade-top">
+                <div className="destination-item">
+                    <div className="overlay"></div>
+                    <div className="destination-thumb">
+                        <img src="assets/img/images/kuppar1.jpg" alt="desti" />
+                    </div>
+                    <div className="destination-content">
+                        <h3 className="title">
+                            <a href="destination-details.html">Giri Ganga-Kuppar</a>
+                        </h3>
+                        <span>Krabal, 12 Trips</span>
+                    </div>
+                </div>
+            </div>
+            <div className="col-lg-12 col-md-12 fade-top">
+                <div className="destination-item">
+                    <div className="overlay"></div>
+                    <div className="destination-thumb">
+                        <img src="assets/img/destination/desti-img-3.png" alt="desti" />
+                    </div>
+                    <div className="destination-content">
+                        <h3 className="title">
+                            <a href="destination-details.html">Giri Ganga Churdhar</a>
+                        </h3>
+                        <span>Krabal, 12 Trips</span>
+                    </div>
+                </div>
+            </div>
+            <div className="col-lg-12 col-md-12 fade-top">
+                <div className="destination-item">
+                    <div className="overlay"></div>
+                    <div className="destination-thumb">
+                        <img src="assets/img/images/kalpa1.jpg" alt="desti" />
+                    </div>
+                    <div className="destination-content">
+                        <h3 className="title">
+                            <a href="destination-details.html">Sangla Chitkul Kalpa</a>
+                        </h3>
+                        <span>Krabal, 12 Trips</span>
+                    </div>
+                </div>
+            </div>
+            <div className="col-lg-12 col-md-12 fade-top">
+                <div className="destination-item">
+                    <div className="overlay"></div>
+                    <div className="destination-thumb">
+                        <img src="assets/img/destination/desti-img-5.png" alt="desti" />
+                    </div>
+                    <div className="destination-content">
+                        <h3 className="title">
+                            <a href="destination-details.html">Yulla Kanda</a>
+                        </h3>
+                        <span>Krabal, 12 Trips</span>
+                    </div>
+                </div>
+            </div>
+            {/* <div className="col-lg-12 col-md-12 fade-top">
+                <div className="destination-item">
+                    <div className="overlay"></div>
+                    <div className="destination-thumb">
+                        <img src="assets/img/destination/desti-img-7.png" alt="desti" />
+                    </div>
+                    <div className="destination-content">
+                        <h3 className="title">
+                            <a href="destination-details.html">Lao Lading Island</a>
+                        </h3>
+                        <span>Krabal, 12 Trips</span>
+                    </div>
+                </div>
+            </div>
+            <div className="col-lg-12 col-md-12 fade-top">
+                <div className="destination-item">
+                    <div className="overlay"></div>
+                    <div className="destination-thumb">
+                        <img src="assets/img/destination/desti-img-8.png" alt="desti" />
+                    </div>
+                    <div className="destination-content">
+                        <h3 className="title">
+                            <a href="destination-details.html">Ton Kwen Temple</a>
+                        </h3>
+                        <span>Krabal, 12 Trips</span>
+                    </div>
+                </div>
+            </div>
+            <div className="col-lg-12 col-md-12 fade-top">
+                <div className="destination-item">
+                    <div className="overlay"></div>
+                    <div className="destination-thumb">
+                        <img src="assets/img/destination/desti-img-9.png" alt="desti" />
+                    </div>
+                    <div className="destination-content">
+                        <h3 className="title">
+                            <a href="destination-details.html">Taj Mahal</a>
+                        </h3>
+                        <span>Krabal, 12 Trips</span>
+                    </div>
+                </div>
+            </div> */}
+        </div>
+    </div>
+</section>
+
+
+
+
+    <Footer/>
+
+    </>
   );
 }
