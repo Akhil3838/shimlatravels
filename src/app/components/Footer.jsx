@@ -90,9 +90,9 @@ function Footer() {
             </div>
             <div className="col-lg-3 col-md-6">
                 <div className="footer-widget gallary-widget">
-                    <div className="widget-header">
+                    {/* <div className="widget-header">
                         <h3 className="widget-title">Recent Projects</h3>
-                    </div>
+                    </div> */}
                     <div className="footer-gallery-wrap">
                         <div className="gallary-img">
                             <a href="assets/img/images/footer-gallary-1.png" className="img-popup venobox"><img src="assets/img/images/footer-gallary-1.png" alt="img" /></a>

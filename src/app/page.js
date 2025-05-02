@@ -2,6 +2,7 @@ import Image from "next/image";
 import styles from "./page.module.css";
 import Footer from "./components/Footer";
 import Header from "./components/Header";
+import Link from "next/link";
 
 export default function Home() {
   return (
@@ -17,11 +18,11 @@ export default function Home() {
         <div className="row hero-wrap-3">
             <div className="col-lg-12">
                 <div className="hero-content hero-content-3">
-                    <h4 className="sub-title">Get unforgetable pleasure with us</h4>
+                    <h4 className="sub-title text-white">Get unforgetable pleasure with us</h4>
                     <h1 className="title">
                         Explore beauty of <br /> the whole world
                     </h1>
-                    <p>
+                    <p className="text-white">
                         Denouncing pleasure and praising pain was born and will give you complete <br />
                         great explorer of the truth the master-builder.
                     </p>
@@ -83,12 +84,14 @@ export default function Home() {
             <div className="col-lg-12 col-md-12 fade-top">
                 <div className="destination-item">
                     <div className="overlay"></div>
-                    <div className="destination-thumb">
-                        <img src="assets/img/destination/desti-img-1.png" alt="desti" />
-                    </div>
+                    <Link href={'/birbilling'}>
+                      <div className="destination-thumb">
+                          <img src="assets/img/destination/desti-img-1.png" alt="desti" />
+                      </div>
+                    </Link>
                     <div className="destination-content">
                         <h3 className="title">
-                            <a href="destination-details.html">Bir billing</a>
+                            <a href="/birbilling">Bir billing</a>
                         </h3>
                         <span>Krabal, 12 Trips</span>
                     </div>
