@@ -11,10 +11,34 @@ function BirBillingAdventure() {
             <div className="row">
               <div className="col-lg-8 col-md-12">
                 <div className="blog-details-wrap destination-details-content">
-                  <div className="destination-details-img-wrap mb-30">
-                    {/* <img src="assets/img/images/birbill1.jpg" alt="Paragliding in Bir Billing"style={{height:'400px',width:'auto'}} /> */}
-                    <img src="assets/img/images/birbill2.jpg" alt="Camping in Rajgunda" style={{height:'400px',width:'100%'}}/>
+                <div className="destination-details-img-wrap mb-30">
+                  <div id="birBillingCarousel" className="carousel slide" data-bs-ride="carousel" style={{width:'100%'}}>
+                    <div className="carousel-indicators">
+                      <button type="button" data-bs-target="#birBillingCarousel" data-bs-slide-to="0" className="active" aria-current="true" aria-label="Slide 1"></button>
+                      <button type="button" data-bs-target="#birBillingCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                      <button type="button" data-bs-target="#birBillingCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                    </div>
+                    <div className="carousel-inner">
+                      <div className="carousel-item active">
+                        <img src="assets/img/images/birbill2.jpg" className="d-block w-100" alt="Paragliding in Bir Billing" style={{height:'450px', objectFit: 'cover'}}/>
+                      </div>
+                      <div className="carousel-item">
+                        <img src="assets/img/images/birbill1.jpg" className="d-block w-100" alt="Camping in Rajgunda" style={{height:'450px', objectFit: 'cover'}}/>
+                      </div>
+                      <div className="carousel-item">
+                        <img src="assets/img/images/birbill3.jpg" className="d-block w-100" alt="Hidden Waterfall" style={{height:'450px', objectFit: 'cover'}}/>
+                      </div>
+                    </div>
+                    <button className="carousel-control-prev" type="button" data-bs-target="#birBillingCarousel" data-bs-slide="prev">
+                      <span className="carousel-control-prev-icon" aria-hidden="true"></span>
+                      <span className="visually-hidden">Previous</span>
+                    </button>
+                    <button className="carousel-control-next" type="button" data-bs-target="#birBillingCarousel" data-bs-slide="next">
+                      <span className="carousel-control-next-icon" aria-hidden="true"></span>
+                      <span className="visually-hidden">Next</span>
+                    </button>
                   </div>
+                </div>
                   
                   <div className="blog-details-content">
                     <h2 className="details-title mb-20">Bir Billing - Rajgunda Adventure Package</h2>

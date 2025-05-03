@@ -4055,7 +4055,7 @@ START: Header CSS
   top: 0;
   left: 0;
   z-index: -1;
-  background: linear-gradient(to right, #ff69b4, #87cefa);
+  background: linear-gradient(to right, #ff69b4, #e1e39a);
 }
 .hero-3 .right-shape {
   position: absolute;
@@ -8351,5 +8351,5 @@ START: Footer CSS
 
 /* bir billing */
 li{
-  margin-top: 9px;
+  margin-top: 11px;
 }

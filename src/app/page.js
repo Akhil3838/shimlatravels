@@ -86,7 +86,7 @@ export default function Home() {
                     <div className="overlay"></div>
                     <Link href={'/birbilling'}>
                       <div className="destination-thumb">
-                          <img src="assets/img/destination/desti-img-1.png" alt="desti" />
+                          <img src="assets/img/images/birbill1.jpg" alt="desti" />
                       </div>
                     </Link>
                     <div className="destination-content">
@@ -101,11 +101,11 @@ export default function Home() {
                 <div className="destination-item">
                     <div className="overlay"></div>
                     <div className="destination-thumb">
-                        <img src="assets/img/images/kuppar1.jpg" alt="desti" />
+                        <img src="assets/img/images/kuppar4.jpg" alt="desti" />
                     </div>
                     <div className="destination-content">
                         <h3 className="title">
-                            <a href="destination-details.html">Giri Ganga-Kuppar</a>
+                            <a href="/girigangakuppar">Giri Ganga-Kuppar</a>
                         </h3>
                         <span>Krabal, 12 Trips</span>
                     </div>
@@ -119,7 +119,7 @@ export default function Home() {
                     </div>
                     <div className="destination-content">
                         <h3 className="title">
-                            <a href="destination-details.html">Giri Ganga Churdhar</a>
+                            <a href="/churdhar">Giri Ganga Churdhar</a>
                         </h3>
                         <span>Krabal, 12 Trips</span>
                     </div>
@@ -133,7 +133,7 @@ export default function Home() {
                     </div>
                     <div className="destination-content">
                         <h3 className="title">
-                            <a href="destination-details.html">Sangla Chitkul Kalpa</a>
+                            <a href="/kalpa">Sangla Chitkul Kalpa</a>
                         </h3>
                         <span>Krabal, 12 Trips</span>
                     </div>
@@ -143,11 +143,11 @@ export default function Home() {
                 <div className="destination-item">
                     <div className="overlay"></div>
                     <div className="destination-thumb">
-                        <img src="assets/img/destination/desti-img-5.png" alt="desti" />
+                        <img src="assets/img/images/yullakanda1.jpg" alt="desti" />
                     </div>
                     <div className="destination-content">
                         <h3 className="title">
-                            <a href="destination-details.html">Yulla Kanda</a>
+                            <a href="/yullakanda">Yulla Kanda</a>
                         </h3>
                         <span>Krabal, 12 Trips</span>
                     </div>
