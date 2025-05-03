@@ -20,13 +20,13 @@ function GiriGangaChurdharTrek() {
                     </div>
                     <div className="carousel-inner">
                       <div className="carousel-item active">
-                        <img src="assets/img/images/churdhar1.jpg" className="d-block w-100" alt="Churdhar Peak View" style={{height:'450px', objectFit: 'cover'}}/>
+                        <img src="assets/img/images/churdhar3.jpg" className="d-block w-100" alt="Churdhar Peak View" style={{height:'450px', objectFit: 'cover'}}/>
                       </div>
                       <div className="carousel-item">
                         <img src="assets/img/images/churdhar2.jpg" className="d-block w-100" alt="Giri Ganga Temple" style={{height:'450px', objectFit: 'cover'}}/>
                       </div>
                       <div className="carousel-item">
-                        <img src="assets/img/images/churdhar3.jpg" className="d-block w-100" alt="Trekking through forests" style={{height:'450px', objectFit: 'cover'}}/>
+                        <img src="assets/img/images/churdhar1.jpg" className="d-block w-100" alt="Trekking through forests" style={{height:'450px', objectFit: 'cover'}}/>
                       </div>
                     </div>
                     <button className="carousel-control-prev" type="button" data-bs-target="#churdharCarousel" data-bs-slide="prev">
@@ -156,7 +156,7 @@ function GiriGangaChurdharTrek() {
                     </div>
                   </div>
 
-                  <div className="pricing-box mt-40">
+                  {/* <div className="pricing-box mt-40">
                     <h4><i className="fa-regular fa-tag"></i> Pricing</h4>
                     <table className="pricing-table">
                       <thead>
@@ -181,7 +181,7 @@ function GiriGangaChurdharTrek() {
                       </tbody>
                     </table>
                     <p className="note">*Prices inclusive of all taxes</p>
-                  </div>
+                  </div> */}
 
                   <div className="cta-box text-center mt-50">
                     <button className="btn btn-primary btn-lg">Book Now</button>

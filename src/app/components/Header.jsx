@@ -10,7 +10,7 @@ function Header() {
             <div className="primary-header-inner">
                 <div className="header-logo d-lg-block">
                     <a href='index.html'>
-                        <img src="assets/img/logo/logo-2.png" alt="logo" />
+                        <img src="assets/img/images/logo1.png" alt="logo" style={{width:'100px'}} />
                     </a>
                 </div>
                 <div className="header-menu-wrap">
@@ -106,10 +106,10 @@ function Header() {
     <div className="side-menu-content">
         <div className="side-menu-logo">
             <a className="dark-img" href="index.html">
-                <img src="assets/img/logo/logo-2.png" alt="logo" />
+            <img src="assets/img/images/logo1.png" alt="logo" style={{width:'100px'}} />
             </a>
             <a className="light-img" href="index.html">
-                <img src="assets/img/logo/logo-3.png" alt="logo" />
+            <img src="assets/img/images/logo1.png" alt="logo" style={{width:'100px'}} />
             </a>
         </div>
         <div className="side-menu-wrap"></div>
@@ -168,7 +168,7 @@ function Header() {
     <div className="side-menu-content">
         <div className="side-menu-head">
             <a href="index.html">
-                <img src="assets/img/logo/logo-1.png" alt="logo" />
+            <img src="assets/img/images/logo1.png" alt="logo" style={{width:'100px'}} />
             </a>
             <button className="mobile-side-menu-close">
                 <i className="fa-regular fa-xmark"></i>

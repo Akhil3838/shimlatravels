@@ -82,76 +82,83 @@ export default function Home() {
         </div>
         <div className="row gy-4 fade-wrapper">
             <div className="col-lg-12 col-md-12 fade-top">
+            <Link href={'/birbilling'}>
+
                 <div className="destination-item">
                     <div className="overlay"></div>
-                    <Link href={'/birbilling'}>
                       <div className="destination-thumb">
                           <img src="assets/img/images/birbill1.jpg" alt="desti" />
                       </div>
-                    </Link>
                     <div className="destination-content">
                         <h3 className="title">
-                            <a href="/birbilling">Bir billing</a>
+                            Bir billing
                         </h3>
-                        <span>Krabal, 12 Trips</span>
                     </div>
                 </div>
+                </Link>
+
             </div>
             <div className="col-lg-12 col-md-12 fade-top">
+            <Link href={'/girigangakuppar'}>
+
                 <div className="destination-item">
                     <div className="overlay"></div>
                     <div className="destination-thumb">
                         <img src="assets/img/images/kuppar4.jpg" alt="desti" />
                     </div>
-                    <div className="destination-content">
-                        <h3 className="title">
-                            <a href="/girigangakuppar">Giri Ganga-Kuppar</a>
-                        </h3>
-                        <span>Krabal, 12 Trips</span>
-                    </div>
+                        <div className="destination-content">
+                            <h3 className="title">
+                                Giri Ganga-Kuppar
+                            </h3>
+                        </div>
                 </div>
+                </Link>
+
             </div>
             <div className="col-lg-12 col-md-12 fade-top">
-                <div className="destination-item">
-                    <div className="overlay"></div>
-                    <div className="destination-thumb">
-                        <img src="assets/img/destination/desti-img-3.png" alt="desti" />
+              <Link href={'/churdhar'}>
+                    <div className="destination-item">
+                        <div className="overlay"></div>
+                        <div className="destination-thumb">
+                            <img src="assets/img/images/churdhar3.jpg" alt="desti" />
+                        </div>
+                        <div className="destination-content">
+                            <h3 className="title">
+                                Giri Ganga Churdhar
+                            </h3>
+                        </div>
                     </div>
-                    <div className="destination-content">
-                        <h3 className="title">
-                            <a href="/churdhar">Giri Ganga Churdhar</a>
-                        </h3>
-                        <span>Krabal, 12 Trips</span>
-                    </div>
-                </div>
+              </Link>
             </div>
             <div className="col-lg-12 col-md-12 fade-top">
-                <div className="destination-item">
-                    <div className="overlay"></div>
-                    <div className="destination-thumb">
-                        <img src="assets/img/images/kalpa1.jpg" alt="desti" />
+                <Link href={'/kalpa'}>
+                    <div className="destination-item">
+                        <div className="overlay"></div>
+                        <div className="destination-thumb">
+                            <img src="assets/img/images/kalpa1.jpg" alt="desti" />
+                        </div>
+                        <div className="destination-content">
+                            <h3 className="title">
+                                Sangla Chitkul Kalpa
+                            </h3>
+                        </div>
                     </div>
-                    <div className="destination-content">
-                        <h3 className="title">
-                            <a href="/kalpa">Sangla Chitkul Kalpa</a>
-                        </h3>
-                        <span>Krabal, 12 Trips</span>
-                    </div>
-                </div>
+                </Link>
             </div>
             <div className="col-lg-12 col-md-12 fade-top">
-                <div className="destination-item">
-                    <div className="overlay"></div>
-                    <div className="destination-thumb">
-                        <img src="assets/img/images/yullakanda1.jpg" alt="desti" />
+                <Link href={'/yullakanda'}>
+                    <div className="destination-item">
+                        <div className="overlay"></div>
+                        <div className="destination-thumb">
+                            <img src="assets/img/images/yullakanda1.jpg" alt="desti" />
+                        </div>
+                        <div className="destination-content">
+                            <h3 className="title">
+                                Yulla Kanda
+                            </h3>
+                        </div>
                     </div>
-                    <div className="destination-content">
-                        <h3 className="title">
-                            <a href="/yullakanda">Yulla Kanda</a>
-                        </h3>
-                        <span>Krabal, 12 Trips</span>
-                    </div>
-                </div>
+                </Link>
             </div>
             {/* <div className="col-lg-12 col-md-12 fade-top">
                 <div className="destination-item">

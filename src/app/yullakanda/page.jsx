@@ -170,7 +170,7 @@ function YullaKandaTrek() {
                     </div>
                   </div>
 
-                  <div className="pricing-box mt-40">
+                  {/* <div className="pricing-box mt-40">
                     <h4><i className="fa-regular fa-tag"></i> Pricing</h4>
                     <table className="pricing-table">
                       <thead>
@@ -196,7 +196,7 @@ function YullaKandaTrek() {
                     </table>
                     <p className="note">*Prices inclusive of all taxes</p>
                   </div>
-
+ */}
                   <div className="cta-box text-center mt-50">
                     <button className="btn btn-primary btn-lg">Book Now</button>
                     <p className="mt-20">Have questions? <a href="#contact">Contact our adventure specialists</a></p>

@@ -4055,7 +4055,7 @@ START: Header CSS
   top: 0;
   left: 0;
   z-index: -1;
-  background: linear-gradient(to right, #ff69b4, #e1e39a);
+  background: linear-gradient(to right, #684765, #f8b26d);
 }
 .hero-3 .right-shape {
   position: absolute;
@@ -8347,7 +8347,19 @@ START: Footer CSS
 
 /* !END: Theme Footer CSS *//*# sourceMappingURL=main.css.map */
 
-
+.whatsapp-float {
+  width: 70px;
+  height: 70px;
+  position: fixed;
+  float: right;
+  text-align: center;
+  right: .5em;
+  color: white;
+  font-size: 40px;
+  bottom: 0.5em;
+  margin-bottom: 12px;
+   z-index:1999;
+}
 
 /* bir billing */
 li{

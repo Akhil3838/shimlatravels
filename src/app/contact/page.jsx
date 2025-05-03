@@ -10,50 +10,54 @@ function contact() {
         <section className="contact-section pt-120 pb-120">
         <div className="container">
             <div className="row align-items-center">
-                <div className="col-lg-5">
-                    <div className="contact-box">
-                        <div className="contact-items">
-                            <div className="contact-item">
-                                <div className="icon">
-                                    <i className="fa-light fa-phone-rotary"></i>
-                                </div>
-                                <div className="content">
-                                    <span>Any Questions? Call us</span>
-                                    <h4 className="title"><a href="tel:+12463330079">+1 (246) 333 0079</a></h4>
-                                </div>
-                            </div>
-                            <div className="contact-item">
-                                <div className="icon">
-                                    <i className="fa-light fa-envelope-open-text"></i>
-                                </div>
-                                <div className="content">
-                                    <span>Any Questions? Email us</span>
-                                    <h4 className="title"><a href="mailto:example@gmail.com">example@gmail.com</a></h4>
-                                </div>
-                            </div>
-                            <div className="contact-item">
-                                <div className="icon">
-                                    <i className="fa-light fa-location-dot"></i>
-                                </div>
-                                <div className="content">
-                                    <span>51 Somestreet Cambridge</span>
-                                    <h4 className="title">51 Somestreet Cambridge</h4>
-                                </div>
-                            </div>
-                        </div>
-                        <div className="contact-info">
-                            <h4 className="rating-title">Customer Ratings</h4>
-                            <ul className="rating-list">
-                                <li><i className="fa-solid fa-star"></i></li>
-                                <li><i className="fa-solid fa-star"></i></li>
-                                <li><i className="fa-solid fa-star"></i></li>
-                                <li><i className="fa-solid fa-star"></i></li>
-                                <li><i className="fa-solid fa-star"></i></li>
-                            </ul>
-                            <span>By 700+ logistics Customers</span>
-                        </div>
-                    </div>
+            <div className="col-lg-5">
+    <div className="contact-box">
+        <div className="contact-items">
+            <div className="contact-item">
+                <div className="icon">
+                    <i className="fa-light fa-phone-rotary"></i>
                 </div>
+                <div className="content">
+                    <span>Any Questions? Call us</span>
+                    <h4 className="title">
+                        <a href="tel:+918882408594">+91 88824 08594</a>
+                    </h4>
+                </div>
+            </div>
+            <div className="contact-item">
+                <div className="icon">
+                    <i className="fa-light fa-envelope-open-text"></i>
+                </div>
+                <div className="content">
+                    <span>Any Questions? Email us</span>
+                    <h4 className="title">
+                        <a href="mailto:hsstartup14@gmail.com">hsstartup14@gmail.com</a>
+                    </h4>
+                </div>
+            </div>
+            <div className="contact-item">
+                <div className="icon">
+                    <i className="fa-light fa-location-dot"></i>
+                </div>
+                <div className="content">
+                    <span>Gandhi Nagar, Delhi</span>
+                    <h4 className="title">Gandhi Nagar, Delhi</h4>
+                </div>
+            </div>
+        </div>
+        <div className="contact-info">
+            <h4 className="rating-title">Customer Ratings</h4>
+            <ul className="rating-list">
+                <li><i className="fa-solid fa-star"></i></li>
+                <li><i className="fa-solid fa-star"></i></li>
+                <li><i className="fa-solid fa-star"></i></li>
+                <li><i className="fa-solid fa-star"></i></li>
+                <li><i className="fa-solid fa-star"></i></li>
+            </ul>
+            <span>By 700+ logistics Customers</span>
+        </div>
+    </div>
+</div>
                 <div className="col-lg-7">
                     <div className="contact-form">
                         <div className="section-heading mb-30">
