@@ -9,7 +9,7 @@ function Header() {
         <div className="container header-container">
             <div className="primary-header-inner">
                 <div className="header-logo d-lg-block">
-                    <a href='index.html'>
+                    <a href='/'>
                         <img src="assets/img/images/logo1.png" alt="logo" style={{width:'100px'}} />
                     </a>
                 </div>
@@ -105,10 +105,10 @@ function Header() {
     </button>
     <div className="side-menu-content">
         <div className="side-menu-logo">
-            <a className="dark-img" href="index.html">
+            <a className="dark-img" href="/">
             <img src="assets/img/images/logo1.png" alt="logo" style={{width:'100px'}} />
             </a>
-            <a className="light-img" href="index.html">
+            <a className="light-img" href="/">
             <img src="assets/img/images/logo1.png" alt="logo" style={{width:'100px'}} />
             </a>
         </div>
@@ -167,7 +167,7 @@ function Header() {
 <div className="mobile-side-menu">
     <div className="side-menu-content">
         <div className="side-menu-head">
-            <a href="index.html">
+            <a href="/">
             <img src="assets/img/images/logo1.png" alt="logo" style={{width:'100px'}} />
             </a>
             <button className="mobile-side-menu-close">
