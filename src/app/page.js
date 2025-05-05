@@ -23,8 +23,9 @@ export default function Home() {
                     <h1 className="title">
                         {/* Explore beauty of <br /> the whole world */}
                         Pause.<br/>
-                         Connect.<br/> Discover 
-                    </h1>
+                         Connect.<br/>
+                          Discover 
+                          </h1>
                     <p className="text-white ms-2">
                               </p>
                     {/* <div className="hero-btn-wrap">

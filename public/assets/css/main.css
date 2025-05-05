@@ -679,11 +679,11 @@ ul {
   top: 170px;
 }
 
-@media only screen and (max-width: 767px) {
+/* @media only screen and (max-width: 767px) {
   br {
     display: none;
   }
-}
+} */
 /*-- Margin Top --*/
 .mt-5 {
   margin-top: 5px;
@@ -3643,6 +3643,8 @@ START: Header CSS
     font-size: 50px;
   }
 }
+
+
 @media only screen and (max-width: 767px) {
   .hero-content .title {
     font-size: 40px;
