@@ -17,15 +17,16 @@ export default function Home() {
     <div className="container">
         <div className="row hero-wrap-3">
             <div className="col-lg-12">
-                <div className="hero-content hero-content-3">
-                    <h4 className="sub-title text-white">Get unforgetable pleasure with us</h4>
+                <div className="hero-content hero-content-3 ms-5">
+                    <h4 className="sub-title text-white">                            
+                    </h4>
                     <h1 className="title">
-                        Explore beauty of <br /> the whole world
+                        {/* Explore beauty of <br /> the whole world */}
+                        Pause.<br/>
+                         Connect.<br/> Discover 
                     </h1>
-                    <p className="text-white">
-                        Denouncing pleasure and praising pain was born and will give you complete <br />
-                        great explorer of the truth the master-builder.
-                    </p>
+                    <p className="text-white ms-2">
+                              </p>
                     {/* <div className="hero-btn-wrap">
                         <div className="hero-btn">
                             <a className="ts-primary-btn" href="about.html">

@@ -3,8 +3,8 @@ import "./globals.css";
 
 
 export const metadata = {
-  title: "Trails - Adventure Tours & Travel HTML Template",
-  description: "",
+  title: "AalsiBackpackers",
+  description: "Pause.Discover.Connect",
 };
 
 export default function RootLayout({ children }) {
@@ -12,7 +12,7 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <head>
         {/* Favicon */}
-        <link rel="shortcut icon" href="/assets/img/favicon.png" type="image/x-icon" />
+        <link rel="shortcut icon" href="assets/img/images/logo1.png" type="image/x-icon" />
 
         {/* External CSS */}
         <link rel="stylesheet" href="/assets/css/bootstrap.min.css" />

@@ -288,10 +288,10 @@ function SanglaKalpaChitkulTour() {
                   <div className="contact-widget">
                     <p>Our Kinnaur experts are here to help:</p>
                     <ul className="contact-info">
-                      <li><i className="fa-regular fa-phone"></i> +91 98765 43210</li>
-                      <li><i className="fa-regular fa-envelope"></i> kinnaur@yourcompany.com</li>
+                    <li><i className="fa-regular fa-phone"></i>(+91) 88824 08594</li>
+                      <li><i className="fa-regular fa-envelope"></i> hsstartup14@gmail.com</li>
                     </ul>
-                    <button className="btn btn-outline-primary btn-block">Send Message</button>
+                    {/* <button className="btn btn-outline-primary btn-block">Send Message</button> */}
                   </div>
                 </div>
               </div>

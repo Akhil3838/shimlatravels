@@ -6,11 +6,11 @@ function Footer() {
       <footer className="footer-section overflow-hidden">
       <div>
         <a href="https://wa.me/+918882408594" target="_blank">
-            <img className="whatsapp-float" src="https://croniox.com/assets/img/whatsapp.png"/>
+            <img className="whatsapp-float" src="/assets/img/images/msg.png"/>
        </a>
 </div>
 
-        <div className="bg-img" data-background="assets/img/bg-img/footer-bg.png"></div>
+        <div className="bg-img" style={{backgroundColor: '#001f3f'}}></div>
         <div className="overlay"></div>
         <div className="container">
           <div className="footer-top row">
@@ -101,7 +101,7 @@ function Footer() {
           <div className="container">
             <div className="row copyright-content">
               <div className="col-md-6">
-                <p>© 2024 Trails. All Rights Reserved.</p>
+                <p>© 2025 AalsiBackpackers. All Rights Reserved.</p>
               </div>
               <div className="col-md-6">
                 <ul className="copyright-list">

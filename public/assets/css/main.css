@@ -4055,7 +4055,8 @@ START: Header CSS
   top: 0;
   left: 0;
   z-index: -1;
-  background: linear-gradient(to right, #684765, #f8b26d);
+  /* background: linear-gradient(to right, #684765, #f8b26d); */
+  background-image: url('/assets/img/images/birbill2.jpg');
 }
 .hero-3 .right-shape {
   position: absolute;

@@ -41,7 +41,7 @@ function About() {
                                 We are passionate about making travel seamless enjoyable for explorers like you. From breathtaking destinations to curated experiences, we bring the <br /> world closer to you.
                             </p>
                             <h4 className="about-text">
-                                Speak to our Destination Experts at Direct Call <a href="tel:+1546378654">+1 546 378 654</a>
+                                Speak to our Destination Experts at Direct Call <a href="+91 88824 08594">+91 88824 08594</a>
                             </h4>
                         </div>
                         <ul className="about-list fade-top">
@@ -51,9 +51,9 @@ function About() {
                             <li><i className="fa-sharp fa-solid fa-circle-check"></i>Trusted by more than 80,000 customers</li>
                         </ul>
                         <div className="about-btn fade-top">
-                            <a className="ts-primary-btn" href="about.html">
+                            {/* <a className="ts-primary-btn" href="about.html">
                                 Read More<i className="fa-regular fa-chevron-right"></i>
-                            </a>
+                            </a> */}
                         </div>
                     </div>
                 </div>
