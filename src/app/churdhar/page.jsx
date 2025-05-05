@@ -26,7 +26,7 @@ function GiriGangaChurdharTrek() {
                         <img src="assets/img/images/churdhar2.jpg" className="d-block w-100" alt="Giri Ganga Temple" style={{height:'450px', objectFit: 'cover'}}/>
                       </div>
                       <div className="carousel-item">
-                        <img src="assets/img/images/churdhar1.jpg" className="d-block w-100" alt="Trekking through forests" style={{height:'450px', objectFit: 'cover'}}/>
+                        <img src="assets/img/images/churdhar1.JPG" className="d-block w-100" alt="Trekking through forests" style={{height:'450px', objectFit: 'cover'}}/>
                       </div>
                     </div>
                     <button className="carousel-control-prev" type="button" data-bs-target="#churdharCarousel" data-bs-slide="prev">
