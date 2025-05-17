@@ -44,6 +44,8 @@ function Header() {
                                 </ul>
                             </li> */}
                             <li><a href='/contact'>Contacts</a></li>
+                             <li><a href='/blog'>Blog</a></li>
+
                         </ul>
                     </div>
                 </div>

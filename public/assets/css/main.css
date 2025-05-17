@@ -102,10 +102,10 @@ h1 {
   font-size: var(--ts-fs-h1);
 }
 
-h2 {
+/* h2 {
   font-size: var(--ts-fs-h2);
 }
-
+ */
 h3 {
   font-size: var(--ts-fs-h3);
 }
