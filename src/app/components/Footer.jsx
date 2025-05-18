@@ -118,9 +118,14 @@ function Footer() {
         <div className="copyright-area">
           <div className="container">
             <div className="row copyright-content">
-              <div className="col-md-6">
-                <p>© 2025 AalsiBackpackers. All Rights Reserved.</p>
-              </div>
+            <div className="col-md-6">
+  {pathname === '/blog' ? (
+    <p></p>
+  ) : (
+    <p>© 2025 AalsiBackpackers. All Rights Reserved.</p>
+  )}
+</div>
+
               <div className="col-md-6">
                 <ul className="copyright-list">
                   <li><a href="/contact">Terms of Service</a></li>
