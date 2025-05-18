@@ -119,15 +119,22 @@ function Header() {
         </svg>
     </button>
     <div className="side-menu-content">
-        <div className="side-menu-logo">
-            <a className="dark-img" href="/">
-            <img src="assets/img/images/logo1.png" alt="logo" style={{width:'100px'}} />
-            </a>
-            <a className="light-img" href="/">
-            <img src="assets/img/images/logo1.png" alt="logo" style={{width:'100px'}} />
-            </a>
-        </div>
-        <div className="side-menu-wrap"></div>
+<div className="side-menu-logo">
+      {pathname === '/blog' ? (
+        <h2 style={{ fontWeight: 'bold', color: '#333' }}>
+          Travel-Circle-Stories
+        </h2>
+      ) : (
+        <>
+          <a className="dark-img" href="/">
+            <img src="assets/img/images/logo1.png" alt="logo" style={{ width: '100px' }} />
+          </a>
+          <a className="light-img" href="/">
+            <img src="assets/img/images/logo1.png" alt="logo" style={{ width: '100px' }} />
+          </a>
+        </>
+      )}
+    </div>        <div className="side-menu-wrap"></div>
         <div className="side-menu-about">
             <div className="side-menu-header">
                 <h3>About Us</h3>
@@ -181,14 +188,27 @@ function Header() {
 
 <div className="mobile-side-menu">
     <div className="side-menu-content">
-        <div className="side-menu-head">
-            <a href="/">
-            <img src="assets/img/images/logo1.png" alt="logo" style={{width:'100px'}} />
-            </a>
-            <button className="mobile-side-menu-close">
-                <i className="fa-regular fa-xmark"></i>
-            </button>
-        </div>
+
+<div className="side-menu-head">
+  {pathname === '/blog' ? (
+    <h2 style={{ fontWeight: 'bold', color: '#333' }}>
+      Travel-Circle-Stories
+    </h2>
+  ) : (
+    <>
+      <a href="/">
+        <img
+          src="assets/img/images/logo1.png"
+          alt="logo"
+          style={{ width: '100px' }}
+        />
+      </a>
+      <button className="mobile-side-menu-close">
+        <i className="fa-regular fa-xmark"></i>
+      </button>
+    </>
+  )}
+</div>
         <div className="side-menu-wrap"></div>
     </div>
 </div>
