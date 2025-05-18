@@ -9,9 +9,18 @@ function Footer() {
     <>
       <footer className="footer-section overflow-hidden">
       <div>
-        <a href="https://wa.me/+918882408594" target="_blank">
+       
+        
+
+           {pathname === '/blog' ? (
+                    <p></p>
+                ) : (
+                    <a href="https://wa.me/+918882408594" target="_blank">
             <img className="whatsapp-float" src="/assets/img/images/msg.png"/>
        </a>
+                )}
+
+
 </div>
 
         <div className="bg-img" style={{backgroundColor: '#001f3f'}}></div>
