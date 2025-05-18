@@ -1,6 +1,9 @@
+'use client';
 import React from 'react'
+import { usePathname } from 'next/navigation';
 
 function Header() {
+     const pathname = usePathname();
   return (
     <>
     {/* <!-- header-area-start --> */}
@@ -8,11 +11,21 @@ function Header() {
     <div className="primary-header">
         <div className="container header-container">
             <div className="primary-header-inner">
-                <div className="header-logo d-lg-block">
-                    <a href='/'>
-                        <img src="assets/img/images/logo1.png" alt="logo" style={{width:'100px'}} />
-                    </a>
-                </div>
+                 <div className="header-logo d-lg-block">
+            <a href="/">
+                {pathname === '/blog' ? (
+                    <h2 style={{ fontWeight: 'bold', color: '#333' }}>
+                        Travel-Circle-Stories
+                    </h2>
+                ) : (
+                    <img
+                        src="/assets/img/images/logo1.png"
+                        alt="logo"
+                        style={{ width: '100px' }}
+                    />
+                )}
+            </a>
+        </div>
                 <div className="header-menu-wrap">
                     <div className="mobile-menu-items">
                         <ul>

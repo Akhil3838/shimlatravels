@@ -1,6 +1,10 @@
+'use client';
 import React from 'react';
+import { usePathname } from 'next/navigation';
 
 function Footer() {
+       const pathname = usePathname();
+  
   return (
     <>
       <footer className="footer-section overflow-hidden">
@@ -29,9 +33,23 @@ function Footer() {
             <div className="col-lg-3 col-md-6">
               <div className="footer-widget">
                 <div className="widget-header logo-header">
-                  <div className="footer-logo">
-                    <a href="/"><img src="assets/img/images/logo1.png" alt="logo" /></a>
-                  </div>
+                 <div className="footer-logo">
+            <a href="/">
+                {pathname === '/blog' ? (
+                    <h2 style={{ fontWeight: 'bold', color: 'white' }}>
+                        Travel-Circle-Stories
+                    </h2>
+                ) : (
+                    <img
+                        src="/assets/img/images/logo1.png"
+                        alt="logo"
+                        style={{ width: '100px' }}
+                    />
+                )}
+            </a>
+        </div>
+
+
                 </div>
               </div>
             </div>
