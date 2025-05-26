@@ -8368,3 +8368,234 @@ START: Footer CSS
 li{
   margin-top: 11px;
 }
+
+/* blog2 */
+.travel-blog {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  line-height: 1.6;
+  color: #333;
+  max-width: 1200px;
+  margin: 0 auto;
+  /* padding: 0 20px; */
+  padding-top: 100px;
+}
+
+.hero {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), url('mountain-bg.jpg'));
+  background-size: cover;
+  background-position: center;
+  color: white;
+  padding: 100px 20px;
+  text-align: center;
+  border-radius: 0 0 10px 10px;
+  margin-bottom: 40px;
+}
+
+.hero h1 {
+  font-size: 2.8rem;
+  margin-bottom: 10px;
+}
+
+.subtitle {
+  font-size: 1.4rem;
+  font-weight: 300;
+}
+
+.container {
+  max-width: 1000px;
+  margin: 0 auto;
+  /* padding: 20px; */
+}
+
+.intro-section .lead {
+  font-size: 1.2rem;
+  margin-bottom: 40px;
+  text-align: center;
+}
+
+.ranges-comparison {
+  display: flex;
+  justify-content: space-between;
+  gap: 30px;
+  margin: 40px 0;
+}
+
+.range-card {
+  flex: 1;
+  padding: 25px;
+  border-radius: 10px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+.garhwal {
+  background-color: #f0f7ff;
+  border-top: 5px solid #4a90e2;
+}
+
+.kumaon {
+  background-color: #f0fff4;
+  border-top: 5px solid #48bb78;
+}
+
+.range-card h3 {
+  margin-top: 0;
+  font-size: 1.4rem;
+}
+
+.range-card ul {
+  padding-left: 20px;
+}
+
+.range-card li {
+  margin-bottom: 10px;
+}
+
+.decision-quote {
+  font-size: 1.4rem;
+  font-style: italic;
+  text-align: center;
+  padding: 30px;
+  color: #4a5568;
+  border-left: 5px solid #e2e8f0;
+  background-color: #f8fafc;
+  margin: 50px auto;
+}
+
+.day-section {
+  padding: 40px 0;
+  border-bottom: 1px solid #e2e8f0;
+}
+
+.day-1 {
+  background-color: #fff;
+}
+
+.day-2 {
+  background-color: #f8fafc;
+}
+
+.day-section h2 {
+  color: #2d3748;
+  font-size: 2rem;
+  margin-bottom: 30px;
+  position: relative;
+  padding-left: 20px;
+}
+
+.day-section h2::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 10px;
+  height: 30px;
+  width: 5px;
+  background: #4299e1;
+}
+
+.content-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 40px;
+  align-items: center;
+  margin: 30px 0;
+}
+
+.reversed {
+  direction: rtl;
+}
+
+.reversed > * {
+  direction: ltr;
+}
+
+.text-content {
+  font-size: 1.1rem;
+}
+
+.route-card, .temple-card {
+  background: white;
+  padding: 20px;
+  border-radius: 8px;
+  margin: 20px 0;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.08);
+  border-left: 4px solid #4299e1;
+}
+
+.route-card h4, .temple-card h4 {
+  margin-top: 0;
+}
+
+.route-card .goal {
+  font-weight: bold;
+  color: #2b6cb0;
+}
+
+.image-placeholder {
+  height: 350px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #edf2f7;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.image-frame {
+  padding: 20px;
+  text-align: center;
+  color: #718096;
+}
+
+.leopard-trail {
+  background-color: #2d3748;
+  color: white;
+  padding: 30px;
+  border-radius: 8px;
+  margin: 40px 0;
+}
+
+.leopard-trail h4 {
+  margin-top: 0;
+  color: #81e6d9;
+}
+
+.conclusion {
+  text-align: center;
+  padding: 60px 20px;
+}
+
+.conclusion h2 {
+  color: #2d3748;
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+.conclusion p {
+  font-size: 1.2rem;
+  max-width: 800px;
+  margin: 0 auto 20px;
+}
+
+.signature {
+  font-size: 1.4rem;
+  font-weight: bold;
+  margin-top: 40px;
+}
+
+@media (max-width: 768px) {
+  .ranges-comparison {
+    flex-direction: column;
+  }
+  
+  .content-grid {
+    grid-template-columns: 1fr;
+  }
+  
+  .hero h1 {
+    font-size: 2rem;
+  }
+  
+  .subtitle {
+    font-size: 1.1rem;
+  }
+}
