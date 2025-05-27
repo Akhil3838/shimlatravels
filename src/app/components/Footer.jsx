@@ -1,10 +1,17 @@
 'use client';
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 import { usePathname } from 'next/navigation';
 
 function Footer() {
        const pathname = usePathname();
-  
+   const [hydrated, setHydrated] = useState(false);
+
+     useEffect(() => {
+       // Mark component as hydrated (client only)
+       setHydrated(true);
+     }, []);
+     const isBlog = hydrated && pathname.startsWith('/blog');
+
   return (
     <>
       <footer className="footer-section overflow-hidden">
@@ -12,7 +19,7 @@ function Footer() {
        
         
 
-           {pathname === '/blog' ? (
+           {isBlog? (
                     <p></p>
                 ) : (
                     <a href="https://wa.me/+918882408594" target="_blank">
@@ -44,7 +51,7 @@ function Footer() {
                 <div className="widget-header logo-header">
                  <div className="footer-logo">
             <a href="/">
-                {pathname === '/blog' ? (
+                {isBlog? (
                     <h2 style={{ fontWeight: 'bold', color: 'white' }}>
                         Travel-Circle-Stories
                     </h2>
@@ -70,7 +77,7 @@ function Footer() {
                 <ul className="footer-list">
                   <li><a href="/">Home</a></li>
                   <li><a href="/about">About Us</a></li>
-                  <li><a href="/contact">Contact Us</a></li>
+                  <li><a href="/blogaslston">Contact Us</a></li>
                 </ul>
               </div>
             </div>
@@ -128,7 +135,7 @@ function Footer() {
           <div className="container">
             <div className="row copyright-content">
             <div className="col-md-6">
-  {pathname === '/blog' ? (
+  {isBlog ? (
     <p></p>
   ) : (
     <p>© 2025 AalsiBackpackers. All Rights Reserved.</p>

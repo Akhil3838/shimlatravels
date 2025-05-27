@@ -8369,19 +8369,19 @@ li{
   margin-top: 11px;
 }
 
-/* blog2 */
-.travel-blog {
+/* mukteshwar-blog */
+/* mukteshwar-blog */
+.mukteshwar-blog {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   line-height: 1.6;
   color: #333;
   max-width: 1200px;
   margin: 0 auto;
-  /* padding: 0 20px; */
-  padding-top: 100px;
+  padding-top: 120px;
 }
 
-.hero {
-  background: linear-gradient(rgba(0, 0, 0, 0.5), url('mountain-bg.jpg'));
+.mukteshwar-hero {
+  background: linear-gradient(rgba(167, 235, 200, 0.5), rgba(242, 241, 241, 0.5));
   background-size: cover;
   background-position: center;
   color: white;
@@ -8391,66 +8391,66 @@ li{
   margin-bottom: 40px;
 }
 
-.hero h1 {
+.mukteshwar-hero h1 {
   font-size: 2.8rem;
   margin-bottom: 10px;
 }
 
-.subtitle {
+.mukteshwar-subtitle {
   font-size: 1.4rem;
   font-weight: 300;
 }
 
-.container {
-  max-width: 1000px;
+.mukteshwar-container {
+  max-width: 800px;
   margin: 0 auto;
-  /* padding: 20px; */
+  padding: 0 20px;
 }
 
-.intro-section .lead {
+.mukteshwar-intro .mukteshwar-lead {
   font-size: 1.2rem;
   margin-bottom: 40px;
   text-align: center;
 }
 
-.ranges-comparison {
+.mukteshwar-ranges {
   display: flex;
   justify-content: space-between;
   gap: 30px;
   margin: 40px 0;
 }
 
-.range-card {
+.mukteshwar-range-card {
   flex: 1;
   padding: 25px;
   border-radius: 10px;
   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
 }
 
-.garhwal {
+.mukteshwar-garhwal {
   background-color: #f0f7ff;
   border-top: 5px solid #4a90e2;
 }
 
-.kumaon {
+.mukteshwar-kumaon {
   background-color: #f0fff4;
   border-top: 5px solid #48bb78;
 }
 
-.range-card h3 {
+.mukteshwar-range-card h3 {
   margin-top: 0;
   font-size: 1.4rem;
 }
 
-.range-card ul {
+.mukteshwar-range-card ul {
   padding-left: 20px;
 }
 
-.range-card li {
+.mukteshwar-range-card li {
   margin-bottom: 10px;
 }
 
-.decision-quote {
+.mukteshwar-quote {
   font-size: 1.4rem;
   font-style: italic;
   text-align: center;
@@ -8461,20 +8461,20 @@ li{
   margin: 50px auto;
 }
 
-.day-section {
+.mukteshwar-day {
   padding: 40px 0;
   border-bottom: 1px solid #e2e8f0;
 }
 
-.day-1 {
+.mukteshwar-day1 {
   background-color: #fff;
 }
 
-.day-2 {
+.mukteshwar-day2 {
   background-color: #f8fafc;
 }
 
-.day-section h2 {
+.mukteshwar-day h2 {
   color: #2d3748;
   font-size: 2rem;
   margin-bottom: 30px;
@@ -8482,7 +8482,7 @@ li{
   padding-left: 20px;
 }
 
-.day-section h2::before {
+.mukteshwar-day h2::before {
   content: '';
   position: absolute;
   left: 0;
@@ -8492,27 +8492,11 @@ li{
   background: #4299e1;
 }
 
-.content-grid {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 40px;
-  align-items: center;
-  margin: 30px 0;
-}
-
-.reversed {
-  direction: rtl;
-}
-
-.reversed > * {
-  direction: ltr;
-}
-
-.text-content {
+.mukteshwar-text-content {
   font-size: 1.1rem;
 }
 
-.route-card, .temple-card {
+.mukteshwar-route-card, .mukteshwar-temple-card {
   background: white;
   padding: 20px;
   border-radius: 8px;
@@ -8521,32 +8505,35 @@ li{
   border-left: 4px solid #4299e1;
 }
 
-.route-card h4, .temple-card h4 {
+.mukteshwar-route-card h4, .mukteshwar-temple-card h4 {
   margin-top: 0;
 }
 
-.route-card .goal {
+.mukteshwar-route-card .mukteshwar-goal {
   font-weight: bold;
   color: #2b6cb0;
 }
 
-.image-placeholder {
-  height: 350px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  background-color: #edf2f7;
-  border-radius: 8px;
-  overflow: hidden;
-}
-
-.image-frame {
-  padding: 20px;
+.mukteshwar-image-container {
+  margin: 30px 0;
   text-align: center;
-  color: #718096;
 }
 
-.leopard-trail {
+.mukteshwar-image-container img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.mukteshwar-image-caption {
+  font-size: 0.9rem;
+  color: #666;
+  margin-top: 10px;
+  font-style: italic;
+}
+
+.mukteshwar-trail {
   background-color: #2d3748;
   color: white;
   padding: 30px;
@@ -8554,48 +8541,51 @@ li{
   margin: 40px 0;
 }
 
-.leopard-trail h4 {
+.mukteshwar-trail h4 {
   margin-top: 0;
   color: #81e6d9;
 }
 
-.conclusion {
+.mukteshwar-conclusion {
   text-align: center;
   padding: 60px 20px;
 }
 
-.conclusion h2 {
+.mukteshwar-conclusion h2 {
   color: #2d3748;
   font-size: 2rem;
   margin-bottom: 20px;
 }
 
-.conclusion p {
+.mukteshwar-conclusion p {
   font-size: 1.2rem;
   max-width: 800px;
   margin: 0 auto 20px;
 }
 
-.signature {
+.mukteshwar-signature {
   font-size: 1.4rem;
   font-weight: bold;
   margin-top: 40px;
 }
 
 @media (max-width: 768px) {
-  .ranges-comparison {
+  .mukteshwar-ranges {
     flex-direction: column;
   }
   
-  .content-grid {
-    grid-template-columns: 1fr;
-  }
-  
-  .hero h1 {
+  .mukteshwar-hero h1 {
     font-size: 2rem;
   }
   
-  .subtitle {
+  .mukteshwar-subtitle {
     font-size: 1.1rem;
+  }
+  
+  .mukteshwar-container {
+    padding: 0 15px;
+  }
+  .mukteshwar-blog{
+    padding-top: 50px;
   }
 }
