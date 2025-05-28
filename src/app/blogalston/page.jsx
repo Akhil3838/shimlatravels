@@ -83,7 +83,7 @@ function Mukteshwar() {
             
             <div className="mukteshwar-image-container">
               <img src="assets/img/images/blog2-1.jpg" alt="Mango ViewPoint in Nainital" />
-              <p className="mukteshwar-image-caption">The breathtaking view from Mango ViewPoint in Nainital</p>
+              <p className="mukteshwar-image-caption">Bhimtal Lake</p>
             </div>
             
             <p>
@@ -93,17 +93,17 @@ function Mukteshwar() {
             
             <div className="mukteshwar-trail">
               <h4>🌌 The Leopard Trail</h4>
-              <p>
+              <p style={{color:'white'}}>
                 As dusk approached, we began the journey to Zostel Mukteshwar. That's when the adventure truly began.
                 No streetlights. No humans in sight. Just forests. And murmurs about leopard sightings.
               </p>
-              <p>
+              <p style={{color:'white'}}>
                 It was pitch dark after 6 in the evening. We were terrified — but equally determined.
                 After a few wrong turns, GPS fails and moments of panic, we finally saw the lights of Zostel Mukteshwar. 
                 The property was stunning — serene, remote, and almost entirely empty. With over 50 beds, only two other guests were staying — both corporate folks just like us. 
                 We booked an 8-sharing dorm and, just as we'd hoped, had the entire room to ourselves.
               </p>
-              <p>
+              <p style={{color:'white'}}>
                 A campfire, starlit sky, and mountain silence wrapped up Day 1 perfectly.
               </p>
             </div>
@@ -132,10 +132,6 @@ function Mukteshwar() {
                 geomagnetic power centers in the world, the others being Machu Picchu (Peru) and Stonehenge (UK).
               </p>
               
-              <div className="mukteshwar-image-container">
-                <img src="assets/img/images/blog2-2.jpg" alt="Kasar Devi Temple" />
-                <p className="mukteshwar-image-caption">The mystical Kasar Devi Temple with its cosmic energy</p>
-              </div>
               
               <p>
                 Thanks to a gap in the Van Allen Belt, this area experiences strong electromagnetic fields. 
@@ -168,6 +164,11 @@ function Mukteshwar() {
         {/* Final Thoughts */}
         <section className="mukteshwar-conclusion">
           <div className="mukteshwar-container">
+                          <div className="mukteshwar-image-container">
+                <img src="assets/img/images/blog2-2.jpg" alt="Kasar Devi Temple" />
+                <p className="mukteshwar-image-caption"></p>
+              </div>
+
             <h2>✨ Final Thoughts</h2>
             <p>
               This trip wasn't about ticking places off a list. It was about choosing the quieter route, 
