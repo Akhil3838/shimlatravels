@@ -46,18 +46,18 @@ function Mukteshwar() {
             </div>
              */}
             <p>
-              Our first stop: Chokling Monastery. The prayer flags fluttering in the wind, monks quietly walking around, 
+              Our first stop: <span className='fw-bolder'>Chokling Monastery</span>. The prayer flags fluttering in the wind, monks quietly walking around, 
               and the peaceful aura of the place made me want to just sit there for a while and take it all in. 
               It reminded me how rarely we allow ourselves to slow down.
             </p>
             
             <p>
-              Post that, we went to Café Hopping. Bir is full of nice little cafés—wooden interiors, mountain views, 
+              Post that, we went to <span className='fw-bolder'>Café Hopping</span>. Bir is full of nice little cafés—wooden interiors, mountain views, 
               friendly locals, and surprisingly great food.
             </p>
             
             <p>
-              Later in the evening, we rode up to Northern Café – and it honestly became my favourite spot on the trip. 
+              Later in the evening, we rode up to <span className='fw-bolder'>Northern Café </span>– and it honestly became my favourite spot on the trip. 
               We found a cozy table overlooking the paragliding landing site, ordered siddu (a local Himachali dish I'd never 
               tried before – and loved!), and just sat there watching the sunset behind the hills. The sky turned all shades 
               of orange and pink while gliders were landing below. One of those moments you want to bottle up forever.
@@ -76,7 +76,7 @@ function Mukteshwar() {
             <h2>Day 2 – Hidden waterfalls, bumpy roads & bonfire dance parties</h2>
             
             <p>
-              We kicked off the second day with a short hike to a hidden waterfall. The trail was quiet, 
+              We kicked off the second day with a short hike to a<span className='fw-bolder'> hidden waterfall</span>. The trail was quiet, 
               with birds chirping and sunlight slipping through the trees. After about an hour, we reached 
               the waterfall – small but super peaceful. We sat on the rocks, dipped our feet in the cold water, 
               and shared some piping hot momos we brought along. It felt like the perfect picnic spot tucked away from the world.
@@ -84,7 +84,7 @@ function Mukteshwar() {
             
             <p>
               After that, we hopped onto the back of a Bolero (yup, standing at the back – full filmy style) 
-              and started our drive towards Rajgunda Valley. The ride was bumpy and full of twists, but honestly, 
+              and started our drive towards <span className='fw-bolder'>Rajgunda Valley</span>. The ride was bumpy and full of twists, but honestly, 
               that made it even more fun. The views kept getting better – snow-capped peaks, green meadows, 
               and small villages along the way.
             </p>
@@ -96,7 +96,7 @@ function Mukteshwar() {
             
             <p>
               In Rajgunda, we went for a short hike nearby and reached a spot where we got an amazing view of 
-              the Dhauladhar range, with Thamsar Pass standing tall in the background. The air felt fresh. 
+              the <span className='fw-bolder'>Dhauladhar range</span>, with Thamsar Pass standing tall in the background. The air felt fresh. 
               The silence there was powerful—the kind that stays with you.
             </p>
             
@@ -114,7 +114,7 @@ function Mukteshwar() {
             <h2>Day 3 – Flying through the sky & saying goodbye</h2>
             
             <p>
-              We woke up early and drove up to Billing, the launch site for paragliding. 
+              We woke up early and drove up to<span className='fw-bolder'> Billing, the launch site for paragliding.</span> 
               Standing at the edge before take-off, I won't lie – I was nervous.
             </p>
             
@@ -146,11 +146,11 @@ function Mukteshwar() {
             <div className="mukteshwar-ranges">
               <div className="mukteshwar-range-card">
                 <ul>
-                  <li>✅ Rent a scooty – total freedom to explore on your terms</li>
-                  <li>✅ Try the siddu and momos – local, comforting food that hits different in the hills</li>
-                  <li>✅ Pack warm clothes – it can get chilly, even in summer</li>
-                  <li>✅ Book your paragliding slot in advance – especially for morning rides (calmer winds)</li>
-                  <li>✅ Don't over-plan – leave room for detours, pauses, and spontaneous joy</li>
+                  <li className='text-start fw-bolder'>✅ Rent a scooty – total freedom to explore on your terms</li>
+                  <li className='text-start fw-bolder'>✅ Try the siddu and momos – local, comforting food that hits different in the hills</li>
+                  <li className='text-start fw-bolder'>✅ Pack warm clothes – it can get chilly, even in summer</li>
+                  <li className='text-start fw-bolder'>✅ Book your paragliding slot in advance – especially for morning rides (calmer winds)</li>
+                  <li className='text-start fw-bolder'>✅ Don't over-plan – leave room for detours, pauses, and spontaneous joy</li>
                 </ul>
               </div>
             </div>
