@@ -146,11 +146,11 @@ function Mukteshwar() {
             <div className="mukteshwar-ranges">
               <div className="mukteshwar-range-card">
                 <ul>
-                  <li className='text-start fw-bolder'>✅ Rent a scooty – total freedom to explore on your terms</li>
-                  <li className='text-start fw-bolder'>✅ Try the siddu and momos – local, comforting food that hits different in the hills</li>
-                  <li className='text-start fw-bolder'>✅ Pack warm clothes – it can get chilly, even in summer</li>
-                  <li className='text-start fw-bolder'>✅ Book your paragliding slot in advance – especially for morning rides (calmer winds)</li>
-                  <li className='text-start fw-bolder'>✅ Don't over-plan – leave room for detours, pauses, and spontaneous joy</li>
+                  <li className='text-start'>✅ <span className='fw-bolder'>Rent a scooty</span> – total freedom to explore on your terms</li>
+                  <li className='text-start'>✅ <span  className='fw-bolder'>Try the siddu and momos</span> – local, comforting food that hits different in the hills</li>
+                  <li className='text-start'>✅<span  className='fw-bolder'> Pack warm clothes</span> – it can get chilly, even in summer</li>
+                  <li className='text-start'>✅<span  className='fw-bolder'> Book your paragliding slot in advance</span> – especially for morning rides (calmer winds)</li>
+                  <li className='text-start'>✅ <span  className='fw-bolder'>Don't over-plan</span> – leave room for detours, pauses, and spontaneous joy</li>
                 </ul>
               </div>
             </div>
