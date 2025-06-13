@@ -53,7 +53,7 @@ function Mukteshwar() {
               “You can trust people. Some of them. Enough to hold your hand in the dark.”
             </blockquote>
             <div className="mukteshwar-image-container">
-              <img src="assets/img/images/jag3.jpg" alt="Triund Trek" />
+              <img src="assets/img/images/jag3.JPG" alt="Triund Trek" />
               {/* <p className="mukteshwar-image-caption">[IMAGE 2]</p> */}
             </div>
             <p>
