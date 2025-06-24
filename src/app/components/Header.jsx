@@ -22,17 +22,17 @@ function Header() {
             <div className="primary-header-inner">
               <div className="header-logo d-lg-block">
                 <a href="/">
-                  {isBlog ? (
+                  {/* {isBlog ? (
                     <h2 style={{ fontWeight: 'bold', color: '#333' }}>
                       Travel-Circle-Stories
                     </h2>
-                  ) : (
+                  ) : ( */}
                     <img
                       src="/assets/img/images/logo1.png"
                       alt="logo"
                       style={{ width: '100px' }}
                     />
-                  )}
+                  {/* )} */}
                 </a>
               </div>
 
@@ -42,6 +42,8 @@ function Header() {
                     <li><a href="/">Home</a></li>
                     <li><a href="/about">About</a></li>
                     <li><a href="/contact">Contacts</a></li>
+                     <li><a href="/mainblog">Blog</a></li>
+
                   </ul>
                 </div>
               </div>
@@ -96,11 +98,11 @@ function Header() {
 
         <div className="side-menu-content">
           <div className="side-menu-logo">
-            {isBlog ? (
+            {/* {isBlog ? (
               <h2 style={{ fontWeight: 'bold', color: '#333' }}>
                 Travel-Circle-Stories
               </h2>
-            ) : (
+            ) : ( */}
               <>
                 <a className="dark-img" href="/">
                   <img src="/assets/img/images/logo1.png" alt="logo" style={{ width: '100px' }} />
@@ -109,7 +111,7 @@ function Header() {
                   <img src="/assets/img/images/logo1.png" alt="logo" style={{ width: '100px' }} />
                 </a>
               </>
-            )}
+            {/* )} */}
           </div>
 
           <div className="side-menu-wrap"></div>
@@ -147,11 +149,11 @@ function Header() {
       <div className="mobile-side-menu">
         <div className="side-menu-content">
           <div className="side-menu-head">
-            {isBlog ? (
+            {/* {isBlog ? ( */}
               <h2 style={{ fontWeight: 'bold', color: '#333' }}>
                 Travel-Circle-Stories
               </h2>
-            ) : (
+            {/* ) : ( */}
               <>
                 <a href="/">
                   <img src="/assets/img/images/logo1.png" alt="logo" style={{ width: '100px' }} />
@@ -160,7 +162,7 @@ function Header() {
                   <i className="fa-regular fa-xmark"></i>
                 </button>
               </>
-            )}
+            {/* )} */}
           </div>
           <div className="side-menu-wrap"></div>
         </div>
