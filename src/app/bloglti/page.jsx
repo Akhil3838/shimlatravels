@@ -179,17 +179,18 @@ function Mukteshwar() {
             <h3>📍Creative Itinerary</h3>
            <div className='d-flex align-items-center justify-content-center'>
                 <ul className="mukteshwar-itinerar text-start">
-                  <li>🛬 Bagdogra Airport : Entry to Northeast's magic</li>
-                  <li>🏞 Darjeeling: Colonial charm & toy trains</li>
-                  <li>🕊 Peace Pagoda : Serene Buddhist structure</li>
-                  <li>🌿 Rangeet Tea Estate : Tea with a view</li>
-                  <li>🐾 Himalayan Zoo : Home of the red panda</li>
-                  <li>🚂 Toy Train Ride : Nostalgia in motion</li>
-                  <li>🌄 Sikkim :Where every path is a postcard</li>
-                  <li>🛍 MG Marg, Gangtok : Street vibes and culture</li>
-                  <li>❄ Kalapatthar, Lachen: Snow-glazed heaven</li>
-                  <li>🌊 Gurudongmar Lake : A lake that reflects the soul</li>
-                </ul>
+  <li>🛬 <strong>Bagdogra Airport</strong>: Entry to Northeast's magic</li>
+  <li>🏞 <strong>Darjeeling</strong>: Colonial charm & toy trains</li>
+  <li>🕊 <strong>Peace Pagoda</strong>: Serene Buddhist structure</li>
+  <li>🌿 <strong>Rangeet Tea Estate</strong>: Tea with a view</li>
+  <li>🐾 <strong>Himalayan Zoo</strong>: Home of the red panda</li>
+  <li>🚂 <strong>Toy Train Ride</strong>: Nostalgia in motion</li>
+  <li>🌄 <strong>Sikkim</strong>: Where every path is a postcard</li>
+  <li>🛍 <strong>MG Marg, Gangtok</strong>: Street vibes and culture</li>
+  <li>❄ <strong>Kalapatthar, Lachen</strong>: Snow-glazed heaven</li>
+  <li>🌊 <strong>Gurudongmar Lake</strong>: A lake that reflects the soul</li>
+</ul>
+
            </div>
           </div>
                       <p className="mukteshwar-signature text-end">— Iti</p>
