@@ -70,8 +70,8 @@ function Mukteshwar() {
               That day? I was the main character in my own "Barfi". Every breeze, every sunset, every smiling stranger, almost everyone — played the background score to my "Saawali Si Raat" moment.
             </p>
             <div className="mukteshwar-image-contain">
-              <img src="assets/img/images/bloglti1.JPG" alt="Tea garden" />
-              <img src="assets/img/images/bloglti2.JPG" alt="The Japanese Temple" />
+              <img src="assets/img/images/bloglti1.jpg" alt="Tea garden" />
+              <img src="assets/img/images/bloglti2.jpg" alt="The Japanese Temple" />
             </div>
           </div>
         </section>
@@ -145,8 +145,8 @@ function Mukteshwar() {
               Everything I was worried about? Forgot it all. That moment! — it stays with me. Even now.
             </p>
             <div className="mukteshwar-image-contain">
-              <img src="assets/img/images/bloglti3.JPG" alt="Kalapatthar" />
-              <img src="assets/img/images/bloglti4.JPG" alt="Kalapatthar" />
+              <img src="assets/img/images/bloglti3.jpg" alt="Kalapatthar" />
+              <img src="assets/img/images/bloglti4.jpg" alt="Kalapatthar" />
             </div>
 
             <h3>Gurudongmar Lake – A Mirror of the Gods 🌊</h3>
