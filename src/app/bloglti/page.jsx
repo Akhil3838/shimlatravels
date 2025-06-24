@@ -149,7 +149,7 @@ function Mukteshwar() {
               <img src="assets/img/images/bloglti4.jpg" alt="Kalapatthar" />
             </div>
 
-            <h3>Gurudongmar Lake – A Mirror of the Gods 🌊</h3>
+           <p> <strong>Gurudongmar Lake – A Mirror of the Gods 🌊</strong></p>
             <p>
               We drove higher, to 15,000 feet, to one of the world's highest lakes — Gurudongmar.
             </p>
