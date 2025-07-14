@@ -11,6 +11,8 @@ function BlogList() {
     { id: 3, title: "The Trip That Changed Everything – From Strangers to Stories", date: "day", author: "Jagriti",url:"blogJagriti" },
     { id: 4, title: "Darjeeling-Sikkim: A Tale of Lost Worries & Found Wonder", date: "March 25,2025", author: "Iti",url:"bloglti" },
     { id: 5, title: "A Peaceful Yet Adventurous Escape to Bir Billing & Rajgunda", date: "day", author: "Manik",url:"blogmanik" },
+    { id: 6, title: "Har Ki Dun – Trekking Through Clouds, Valleys & Ancient Trails", date: "March 25", author: "Traveler",url:"blogancient" },
+
   ];
 
   // Format date - returns null if date is invalid or just "day"
